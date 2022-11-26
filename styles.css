@@ -1,0 +1,77 @@
+.card {
+  width: 700px;
+  display: block;
+  margin: 10px;
+  padding: 100px 80px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(215, 223, 252) 0%,
+    rgb(255, 255, 255) 0%,
+    rgb(215, 223, 252) 84%
+  );
+  font-family: "Ubuntu", sans-serif;
+  color: black;
+  text-shadow: grey 0.5px 0.5px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: -20px;
+  color: black;
+  text-shadow: white 2px 2px;
+}
+
+.todayIcon {
+  margin-left: 110px;
+  margin-top: -21px;
+  position: absolute;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+.units {
+  font-size: 18px;
+}
+
+h2 {
+  margin-top: -10px;
+  margin-left: 5px;
+}
+
+.searchbox {
+  position: relative;
+  right: -78px;
+  top: -20px;
+}
+
+.todaydate {
+  position: relative;
+  font-size: 28px;
+  top: -26px;
+}
+
+.weatherdescription {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.col-2 {
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  margin: 0px;
+}
+
+.container {
+  margin: 0;
+}
+
+.days-row {
+  flex-wrap: nowrap;
+}
+
+.day {
+  margin-right: 8px;
+}
