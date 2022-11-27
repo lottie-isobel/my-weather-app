@@ -75,3 +75,10 @@ h2 {
 .day {
   margin-right: 8px;
 }
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  margin-left: 15px;
+}
